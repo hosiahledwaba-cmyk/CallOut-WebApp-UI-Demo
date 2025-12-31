@@ -67,7 +67,7 @@ const DashboardProfile: React.FC<Props> = ({ user }) => {
                            />
                            <Bar dataKey="engagement" radius={[6, 6, 0, 0]} barSize={40}>
                                 {data.map((entry, index) => (
-                                    <Cell key={`cell-${index}`} fill={index % 2 === 0 ? '#4f46e5' : '#14b8a6'} />
+                                    <Cell key={`cell-${index}`} fill={index % 2 === 0 ? '#9333ea' : '#d946ef'} />
                                 ))}
                            </Bar>
                        </BarChart>
